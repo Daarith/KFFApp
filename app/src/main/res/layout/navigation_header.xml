@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="#80cbc4"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/person"
+        app:civ_border_color="#fff"
+        app:civ_border_width="1dp"
+        android:id="@+id/Image"
+        android:onClick="OnProfileClick"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chan Darith"
+        android:layout_below="@id/Image"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

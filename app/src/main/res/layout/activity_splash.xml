@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chandarith.kffapp.Activity.SplashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/WelImage"
+        app:civ_border_overlay="true"
+        app:civ_border_width="2dp"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/fast_food"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:id="@+id/WelText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KFF Application"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/WelImage"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+
+</RelativeLayout>
