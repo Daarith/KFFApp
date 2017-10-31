@@ -31,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/minion"
         android:layout_gravity="center"
-        android:text="Mark Zuckerberg"
+        android:text="Chan Darith"
         android:textSize="25dp" />
 
     <TextView

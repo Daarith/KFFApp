@@ -14,10 +14,38 @@
             android:layout_height="wrap_content" />
     </android.support.design.widget.AppBarLayout>
 
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:gravity="center">
 
-    </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Version 1.0"
+            android:textSize="30dp"
+            android:textStyle="italic"
+            android:id="@+id/version"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developer : \nEav chandarith \nMon Tola \nTy Viroth "
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:id="@+id/developer"
+            android:layout_below="@+id/version" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="contact : 023 333 222"
+            android:textSize="30dp"
+            android:layout_below="@+id/developer"
+            android:textStyle="italic"/>
+
+
+
+    </RelativeLayout>
 
 </LinearLayout>

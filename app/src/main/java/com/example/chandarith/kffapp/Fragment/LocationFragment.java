@@ -43,19 +43,19 @@ public class LocationFragment extends Fragment {
     private ArrayList<Movie> getLocationFrag() {
 
         ArrayList<Movie> movies=new ArrayList<>();
-        Movie movie = new Movie("Hamburger",R.drawable.hamburger);
+        Movie movie = new Movie("The Pizza Company - TK Avenue \n Address: Corner of Street 315 and Street 516, Phnom Penh 12152, Cambodia \n Phone: +855 23 993 549 ",R.drawable.pizzacompany);
         movies.add(movie);
 
-        movie = new Movie("Chicken fries",R.drawable.chicken_fries);
+        movie = new Movie("KFC \n Address: 97, Preah Sisowath Quay, Phnom Penh, Cambodia \n Phone: +855 23 996 000",R.drawable.kfc);
         movies.add(movie);
 
-        movie = new Movie("Potato fries",R.drawable.potato_fries);
+        movie = new Movie("Lotteria \n Address: Preah Monivong blvd, Sangkat Beung Raing, Khan Daun Penh, Phnom Penh, Cambodia \n Phone: +855 93 911 000",R.drawable.lotteria);
         movies.add(movie);
 
-        movie = new Movie("Coca Cola",R.drawable.coca_cola);
+        movie = new Movie("Bonchon",R.drawable.bonchon);
         movies.add(movie);
 
-        movie = new Movie("Sandwich",R.drawable.sandwich);
+        movie = new Movie("Burger King",R.drawable.burgerking);
         movies.add(movie);
 
         return movies;
